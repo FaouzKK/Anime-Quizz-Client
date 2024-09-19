@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script type="module" src="/js/apropos.js" defer></script>
+    <title>A propos</title>
+</head>
+
+<body>
+    <nav class="d-flex ; align-items-center justify-content-between p-2" id="usernavbar">
+        <div class="" id="webname">
+            <img src="/icon.png" alt="web icon" height="50">
+            <span class="fw-bold ft-2 text-primary ps-2">AnimeQuizz</span>
+        </div>
+        <div id="nav-options">
+            <a href="/index.html">Liste des quiz</a>
+            <a href="/profile.html">Profile</a>
+            <a href="/apropos.html" class="text-primary">A propos</a>
+        </div>
+        <div id="navbtn">
+            <i class="bi bi-list"></i>
+            <div class="sidebar-option">
+                <a href="/index.html">Liste des quiz</a>
+                <a href="/profile.html">Profile</a>
+                <a href="/apropos.html" class="text-warning">A propos</a>
+            </div>
+        </div>
+    </nav>
+    <div id="pppresentation" class="mx-2 my-5">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center"
+            style="column-gap: 200px; row-gap: 30px;">
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="/s_snake.png" alt="snakeimg" id="snakeimg">
+            </div>
+            <div>
+                <div class="text-center"><span class="fw-bold h1 text-primary text-decoration-underline">Mon
+                        profile</span></div>
+                <ul class="my-3">
+                    <li><span class="h5">Nom d'utilisateur :</span> <span class="fw-bold">Monkey D Luffy</span></li>
+                    <li><span class="h5">Numero de telephone :</span> <span class="fw-bold">+228 91 73 33 00</span></li>
+                    <li><span class="fw-bold"><a href="https://github.com/FaouzKK/Anime-Quizz-Client" class="text-primary">Code Source</a></span>
+                    <li><span class="fw-bold"><a href="https://wa.me/22891733300" class="text-primary">Me contacter sur
+                                Whatsapp</a></span>
+                    <li><span class="fw-bold"><a href="https://t.me/22891733300" class="text-primary">Me contacter sur
+                                Telegram</a></span>
+                    <li>
+                        <details>
+                            <summary>
+                                <span class="fw-bold">Autres informations</span>
+                            </summary>
+                            <ul>
+                                <li><a href="#" class="fw-bold text-secondary" target="_blank">github:FaouzKK</a></li>
+                                <li><a href="https://web-card-game.vercel.app" class="fw-bold text-secondary">web card
+                                        game</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Partie FAQ -->
+    <div id="faq" class="container my-5">
+        <h2 class="text-start h1 mb-4 text-decoration-underline fw-bold">FAQ (Foire aux questions)</h2>
+        <div class="faqs my-3 mx-2 d-flex flex-column gap-3">
+            <div class="faq-item">
+                <details>
+                    <summary class="fw-bold h5">Comment puis-je m'inscrire à un quiz ?</summary>
+                    <p>
+                        Dès votre première connexion, un panneau vous sera affiché pour enregistrer un identifiant à votre compte. Sachez qu'il n'y a pas de moyen de récupération de compte, donc n'oubliez pas vos identifiants.
+                    </p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary class="fw-bold h5">Comment puis-je contacter le support ?</summary>
+                    <p>
+                        Vous pouvez contacter le support via les liens "Me contacter sur Whatsapp" ou "Me contacter sur
+                        Telegram".
+                    </p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary class="fw-bold h5">Est-ce que les résultats des quiz sont sauvegardés ?</summary>
+                    <p>
+                        Oui, une base de données PostgreSQL a été utilisée lors de la création de ce site pour sauvegarder les résultats des quiz. Il devrait normalement y avoir un classement (leaderboard) pour chaque quiz. Cela viendra bientôt.
+                    </p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary class="fw-bold h5">Comment pouvons-nous y contribuer ?</summary>
+                    <p>
+                        Des suggestions de quiz de tout niveau (facile, normal, difficile) et des améliorations sont les bienvenues. Bien entendu, je tâcherai de mentionner toute aide dans les crédits des auteurs de quiz. Vous pouvez nous contacter via les liens "Me contacter sur Whatsapp" ou "Me contacter sur Telegram".
+                    </p>
+                </details>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- Fin de la partie FAQ -->
+    <div id="ppcolaboration" class="d-flex align-items-center flex-column gap-4" style="margin:100px 0 ;">
+        <div class="d-flex align-items-center justify-content-between px-2">
+            <div>
+                <span class="fw-bold h1 ps-4">Besoin d'Aide avec les Quiz Animés</span>
+                <p>
+                    J'ai besoin d'aide pour certains quiz animés pour lesquels je manque d'informations. Si vous avez
+                    des connaissances sur des séries animées, des personnages ou des scénarios, votre assistance serait
+                    grandement appréciée. Que ce soit pour des réponses précises, des explications ou des pistes pour
+                    approfondir mes recherches, toute aide est la bienvenue. Merci d'avance pour votre soutien !
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="tired_luffy.png" alt="img-luffy" height="200px">
+        </div>
+    </div>
+    <footer class="d-flex align-items-center justify-content-center">
+        <span class="fw-bold f1 m-3 text-center">By ᚛M๏𝓷keℽ D Lบffy᚜ <br> Enjoy!</span>
+    </footer>
+</body>
+
+</html>

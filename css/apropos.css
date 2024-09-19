@@ -1,0 +1,22 @@
+li {
+
+    list-style-type: none;
+    padding: 10px 0;
+  }
+
+
+#pppresentation {
+
+    border: solid 5px;
+
+    border-radius: 20px;
+
+    border-style: dashed;
+    padding: 10px 0;
+}
+
+#snakeimg {
+
+    max-width: 70vw;
+}
+

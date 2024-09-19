@@ -1,0 +1,85 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0,0.5);
+    overflow-x: hidden;
+}
+
+dialog {
+
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+
+    background-color: white;
+    border-radius: 20px;
+    max-width: 50vw;
+}
+
+li {
+
+    list-style-type: none;
+    padding: 10px 0;
+  }
+
+  .quizzimagediv {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+  
+  }
+  
+  .quizzimagediv>img {
+  
+    width: 100%;
+  }
+
+  textarea {
+
+    resize: none;
+    width: 30vw;
+    height: 100px;
+  }
+  @media screen and (max-width : 600px){
+    
+    .quizzimagediv {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 10px;
+      
+      }
+
+      .content {
+
+        background-color: white;
+        border-radius: 20px;
+        max-width: 90vw;
+    }
+
+    textarea {
+
+      resize: none;
+      width: 70vw;
+      height: 100px;
+    }
+  }
