@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', async evt => {
                 evt.stopPropagation();
 
                 //console.log(evt.currentTarget) ;
-                navigator.clipboard.writeText(window.location.href + `/startquizz.html?id=${quizz}`) ;
+                navigator.clipboard.writeText(window.location.href + `startquizz.html?id=${quizz}`) ;
 
                 showDialogInformation('Le lien du quizz a ete copier dans votre presse-papier') ;
             })
