@@ -26,7 +26,7 @@
   - [Vite.js](https://vitejs.dev/) pour un développement rapide et performant.
   - HTML5, CSS3, [Bootstrap 5](https://getbootstrap.com/), JavaScript.
 
-- **Backend** :
+- **Backend(*non OpenSource*)** :
   - [Node.js](https://nodejs.org/) avec Express.js pour la gestion des API.
   - PostgreSQL pour la gestion des données utilisateurs et des scores.
 
